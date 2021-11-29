@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 clap = "3.0.0-beta.5"
-lol_html = { git = "https://github.com/cloudflare/lol-html/" }
+lol_html = { git = "https://github.com/mitsuhiko/lol-html", branch = "feature/on-after-end-tag" }
 minijinja = { version = "0.8.2", features = ["json"] }
 regex = "1.5.4"
 serde = "1.0.130"

@@ -273,7 +273,7 @@ dependencies = [
 [[package]]
 name = "lol_html"
 version = "0.3.0"
-source = "git+https://github.com/cloudflare/lol-html/#2772fd0e9feb4a820bfc0cb460e9441b0d0c205d"
+source = "git+https://github.com/mitsuhiko/lol-html?branch=feature/on-after-end-tag#ae820a129e81b4a173896bffdb5d64ca75aa37e6"
 dependencies = [
  "bitflags",
  "cfg-if",

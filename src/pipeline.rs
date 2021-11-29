@@ -142,7 +142,7 @@ impl Pass {
                     for action in &selector.actions {
                         action.enter(el, &mut state.borrow_mut());
                     }
-                    el.on_end_tag(move |tag| {
+                    el.on_after_end_tag(move |tag| {
                         for action in &selector.actions {
                             action.leave(&tag.name(), &mut state.borrow_mut());
                         }
